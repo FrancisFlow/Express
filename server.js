@@ -13,6 +13,9 @@ app.get('/about', (req, res)=>{
 app.get('/contact', (req, res)=>{
     res.send('<h1>Contact me at : francisngigi948@gmail.com</h1>')
 })
+app.get('/test', (req, res)=>{
+    res.send('<h1>Test me</h1>')
+})
 
 app.listen(3000, ()=>{
     console.log('listening on port 3000');
